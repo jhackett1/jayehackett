@@ -60,7 +60,6 @@ main{
         max-width: 1000px;
     }
 }
-
 .welcome__message{
     font-size: 2rem;
     font-weight: 100;
@@ -130,30 +129,35 @@ main{
 }
 
 // Footer
-.footer{
+.footer__ctas{
     @media screen and (min-width: 500px){
-        margin-top: 80px;
+        margin: 80px 0px;
     }
     @media screen and (min-width: 800px){
-        margin-top: 100px;
+        margin-top: 120px 0px;
         text-align: center;
     }
 }
 .footer__link{
-    display: block;
-    margin-bottom: 40px;
+    display: inline-block;
     color: $green;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 3rem;
     word-wrap: break-word;
+    max-width: 100%;
+    &:first-of-type{
+        margin-bottom: 35px;
+    }
     @media screen and (min-width: 800px){
         font-size: 4rem;
-        margin-bottom: 100px;
     }
 }
 .footer__notice{
     margin-top: 60px;
     font-size: 0.95rem;
     color: grey;
+    @media screen and (min-width: 800px){
+        text-align: center;
+    }
 }
