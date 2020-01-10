@@ -12,13 +12,13 @@ const Layout = ({
             <div className="container welcome__inner">
                 <h1 className="welcome__headline">Jaye Hackett</h1>
                 <h2 className="welcome__strapline">Experience designer & technologist</h2>
-                <p className="welcome__links">
+                <div className="welcome__links">
                     <p>Find me on:</p>
-                    <a href="https://medium.com/@dinosaurenby">Medium</a>
-                    <a href="https://www.linkedin.com/in/hackettjaye/">LinkedIn</a>
-                    <a href="https://twitter.com/dinosaurenby">Twitter</a>
-                    <a href="https://github.com/jhackett1">Github</a>
-                </p>
+                    <a className="welcome__link" href="https://medium.com/@dinosaurenby">Medium</a>
+                    <a className="welcome__link" href="https://www.linkedin.com/in/hackettjaye/">LinkedIn</a>
+                    <a className="welcome__link" href="https://twitter.com/dinosaurenby">Twitter</a>
+                    <a className="welcome__link" href="https://github.com/jhackett1">Github</a>
+                </div>
             </div>
         </header>
 

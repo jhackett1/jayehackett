@@ -82,33 +82,33 @@ a{
         color: white;
         margin-bottom: 10px;
     }
-    a{
-        color: white;
-        margin-right: 10px;
-        text-decoration: none;
-        font-size: 1.2rem;
-        display: inline-block;
-        position: relative;
-        @media screen and (min-width: 800px){
-            font-size: 1.7rem;
-        }
+}
+.welcome__link{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    position: relative;
+    @media screen and (min-width: 800px){
+        font-size: 1.7rem;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: white;
+    }
+    &:hover:after{
+        background: none;
+    }
+    &:focus{
+        color: $black;
         &:after{
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 3px;
-            background: white;
-        }
-        &:hover:after{
             background: none;
-        }
-        &:focus{
-            color: $black;
-            &:after{
-                background: none;
-            }
         }
     }
 }
