@@ -14,7 +14,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
                             title
                             client
                             year
-                            read_more
                         }
                         html
                     }

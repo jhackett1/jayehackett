@@ -38,7 +38,6 @@ export const pageQuery = graphql`
             slug
             client
             year
-            read_more
         }
         html
     }
