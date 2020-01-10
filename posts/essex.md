@@ -1,5 +1,6 @@
 ---
 title: Asking for social care help
+slug: "/essex"
 client: Essex County Council
 year: 2019
 ---

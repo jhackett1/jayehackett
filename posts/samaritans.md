@@ -1,5 +1,6 @@
 ---
 title: Volunteer recruitment
+slug: "/samaritans"
 client: Samaritans
 year: 2018
 read_more: https://samaritans-digital.github.io/volunteer-recruitment-improvements.html

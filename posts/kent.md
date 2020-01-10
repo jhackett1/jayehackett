@@ -1,5 +1,6 @@
 ---
 title: Get SEN support
+slug: "/kent"
 client: Kent County Council
 year: 2019
 ---
