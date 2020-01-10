@@ -8,6 +8,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-layout`,
     {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/images/favicon.jpg",
+      }
+    },
+    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
