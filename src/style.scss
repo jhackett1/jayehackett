@@ -1,4 +1,4 @@
-$black: #0F0F0F;
+$black: #062A19;
 $green: #1CDC80;
 
 *{
@@ -26,17 +26,6 @@ main{
     margin: 0 auto;
     padding: 20px;
     width: 100%;
-    @media screen and (min-width: 800px){
-        background: linear-gradient(
-            to right,
-            transparentize($green, 0.95),
-            transparentize($green, 0.95) 80%,
-            white 80%,
-            white
-          );
-        //   derp
-        background-size: 204px 100%;
-    }
 }
 
 // Header
@@ -44,22 +33,41 @@ main{
     margin: 60px 0px;
     @media screen and (min-width: 800px){
         margin: 100px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 }
-.welcome__mobile-logo{
-    width: 100%;
-    margin-bottom: 20px;
-    @media screen and (min-width: 800px){
-        display: none;
-    }
-}
-.welcome__desktop-logo{
+.welcome__image{
     display: none;
+    // width: 100%;
     @media screen and (min-width: 800px){
         display: block;
-        margin-bottom: 40px;
-        max-width: 1000px;
         width: 100%;
+        max-width: 350px;
+        margin: 0px 120px;
+    }
+}
+.welcome__headline{
+    color: $black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    line-height: 1;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    @media screen and (min-width: 800px){
+        font-size: 6rem;
+    }
+}
+.welcome__strapline{
+    color: $green;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    @media screen and (min-width: 800px){
+        font-size: 2.5rem;
     }
 }
 .welcome__links{
@@ -67,7 +75,7 @@ main{
     margin-bottom: 40px;
     @media screen and (min-width: 800px){
         font-size: 1.7rem;
-        margin-bottom: 100px;
+        // margin-bottom: 100px;
     }
     a{
         margin-left: 5px;
@@ -88,7 +96,7 @@ main{
     margin-bottom: 60px;
     @media screen and (min-width: 800px){
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: 40px;
         margin-bottom: 100px;
     }
@@ -97,6 +105,9 @@ main{
     text-transform: uppercase;
     font-size: 2.2rem;
     margin-bottom: 35px;
+    @media screen and (min-width: 800px){
+        font-size: 2.5rem;
+    }
 }
 .grid__list{
     list-style: none;
@@ -137,7 +148,7 @@ main{
     font-weight: 100;
     @media screen and (min-width: 800px){
         margin-top: 7px;
-        font-size: 1.15rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -169,7 +180,7 @@ main{
         font-size: 4rem;
     }
     @media screen and (min-width: 1100px){
-        font-size: 4.5rem;
+        font-size: 6rem;
     }
 }
 .footer__notice{
