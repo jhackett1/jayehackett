@@ -2,11 +2,16 @@ import React from "react"
 import "./style.scss"
 import hero from "../images/hero.jpg"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const Layout = ({
     children
 }) => (
     <main>
+        <Helmet title="Jaye Hackett">
+            <html lang="en" />
+            <meta name="description" content="Experience designer & technologist" />
+        </Helmet>
         <header className="welcome">
             <div className="welcome__bg" style={{backgroundImage: `url(${hero})`}}></div>
             <div className="container welcome__inner">

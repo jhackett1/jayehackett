@@ -1,9 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: `Jaye Hackett`,
-    description: `Experience designer & technologist.`,
-    author: `@dinosaurenby`,
-  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-layout`,
