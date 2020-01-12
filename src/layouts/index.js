@@ -28,7 +28,7 @@ const Layout = ({
         </header>
 
         <section className="grid container">
-            <h2 className="grid__title">Work</h2>
+            <h2 className="grid__title">Recent work</h2>
             <ul className="grid__list">
                 <li className="list-item">
                     <h3 className="list-item__title"><Link to="/buckinghamshire">Find support near me</Link></h3>
