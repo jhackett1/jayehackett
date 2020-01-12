@@ -9,6 +9,8 @@ Parents of children with special educational needs tend to be told that the firs
 
 Often, this is done on the false assumption that having an EHC plan will unlock more funding, or give the parent first dibs on special school places.
 
+![Screens from the tool](../images/kent-1.jpg)
+
 In fact, EHC plans are just one kind of support in a complex system, but they are the most recognisable to the public, so it's where all the demand is.
 
 With my team, I designed and prototyped online tools to clear up this misunderstanding and signpost parents to appropriate support for their situation.
@@ -16,6 +18,8 @@ With my team, I designed and prototyped online tools to clear up this misunderst
 The outcome is to make sure children are **getting the support they need**, rather than waiting in a very long, very slow queue for an EHC plan that may not be granted.
 
 At the same time, we **reduce demand** on already-stressed council teams, so they can focus on quality, not quantity.
+
+![Presenting to social workers at a show and tell](../images/kent-2.jpg)
 
 My team and I conducted user research with our clickable prototypes:
 
