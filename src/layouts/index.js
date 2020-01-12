@@ -84,12 +84,8 @@ const Layout = ({
             <h2 className="grid__title">Skills</h2>
             <ul className="grid__list grid__list--two-col">
                 <li className="list-item">
-                    <h3 className="list-item__title">Service design</h3>
+                    <h3 className="list-item__title">Strategic design</h3>
                     <p className="list-item__description">Public sector digital services need to be accessible to everyone. I’m comfortable identifying user needs through research and carrying these forward through a project, and considering digital tools as part of an end-to-end service.</p>
-                </li>
-                <li className="list-item">
-                    <h3 className="list-item__title">Web development</h3>
-                    <p className="list-item__description">I'm a full-stack developer comfortable building modern web apps. I work mainly with React and Rails but have experience in a variety of technologies.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Training and coaching</h3>
@@ -98,6 +94,10 @@ const Layout = ({
                 <li className="list-item">
                     <h3 className="list-item__title">Agile delivery</h3>
                     <p className="list-item__description">I’ve trained with and worked alongside many experience agile practitioners, and have led large and small agile teams.</p>
+                </li>
+                <li className="list-item">
+                    <h3 className="list-item__title">Web development</h3>
+                    <p className="list-item__description">I'm a full-stack developer comfortable building modern web apps. I work mainly with React and Rails but have experience in a variety of technologies.</p>
                 </li>
             </ul>
         </section>
@@ -112,7 +112,7 @@ const Layout = ({
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">PG.Dip Broadcast Journalism</h3>
-                    <p className="list-item__caption">University of Sheffield (graduated 2016)</p>
+                    <p className="list-item__caption">University of Sheffield</p>
                     <p className="list-item__description">Graduated 2016</p>
                 </li>
                 <li className="course">
