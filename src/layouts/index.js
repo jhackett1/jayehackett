@@ -10,13 +10,13 @@ const Layout = ({
     <main>
         <Helmet title="Jaye Hackett">
             <html lang="en" />
-            <meta name="description" content="Experience designer & technologist" />
+            <meta name="description" content="Strategic designer & technologist" />
         </Helmet>
         <header className="welcome">
             <div className="welcome__bg" style={{backgroundImage: `url(${hero})`}}></div>
             <div className="container welcome__inner">
                 <h1 className="welcome__headline">Jaye Hackett</h1>
-                <h2 className="welcome__strapline">Experience designer & technologist</h2>
+                <h2 className="welcome__strapline">Strategic designer & technologist</h2>
                 <div className="welcome__links">
                     <p>Find me on:</p>
                     <a className="welcome__link" href="https://medium.com/@dinosaurenby">Medium</a>
