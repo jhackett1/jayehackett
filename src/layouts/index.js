@@ -89,11 +89,11 @@ const Layout = ({
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Web development</h3>
-                    <p className="list-item__description">I’ve built countless modern websites and web applications, working primarily with React, Rails and Django. I’m comfortable building front-ends, APIs and database schemas.</p>
+                    <p className="list-item__description">I'm a full-stack developer comfortable building modern web apps. I work mainly with React and Rails but have experience in a variety of technologies.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Training and coaching</h3>
-                    <p className="list-item__description">I’m a long-time volunteer with <strong>CodeFirst:Girls</strong> and <strong>Codebar</strong>. Most of my jobs have included a mentoring aspect. I’m at home presenting in front of a crowd, and facilitating co-design workshops with users are a vital part of my design process.</p>
+                    <p className="list-item__description">I’m a long-time volunteer with <strong>CodeFirst:Girls</strong> and <strong>Codebar</strong>. Most of my jobs have included a mentoring aspect. I’m comfortable presenting in front of a crowd, and facilitating co-design workshops with users are a vital part of my design process.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Agile delivery</h3>
