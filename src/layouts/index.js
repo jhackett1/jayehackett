@@ -39,12 +39,12 @@ const Layout = ({
                     <p className="list-item__caption">Kent County Council <span>2019</span></p>
                 </li>
                 <li className="list-item">
-                    <h3 className="list-item__title"><Link to="/samaritans">Become a volunteer</Link></h3>
-                    <p className="list-item__caption">Samaritans <span>2018</span></p>
-                </li>
-                <li className="list-item">
                     <h3 className="list-item__title"><Link to="/essex">Ask for social care help</Link></h3>
                     <p className="list-item__caption">Essex County Council <span>2019</span></p>
+                </li>
+                <li className="list-item">
+                    <h3 className="list-item__title"><Link to="/samaritans">Become a volunteer</Link></h3>
+                    <p className="list-item__caption">Samaritans <span>2018</span></p>
                 </li>
             </ul>
         </section>
