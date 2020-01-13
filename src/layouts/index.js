@@ -50,7 +50,7 @@ const Layout = ({
         </section>
 
         <section className="grid container">
-            <h2 className="grid__title">Experience</h2>
+            <h2 className="grid__title">Selected <br/>experience</h2>
             <ul className="grid__list grid__list--two-col">
                 <li className="list-item">
                     <h3 className="list-item__title">Product designer and developer</h3>
