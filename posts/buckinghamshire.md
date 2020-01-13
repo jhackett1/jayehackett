@@ -7,7 +7,7 @@ year: 2020
 
 I designed and built a tool to untangle the complicated mix of support available to adults in need in Buckinghamshire.
 
-![Screens from the tool](../images/bucks-1.jpg)
+![A results screen and initial questions screen from the tool](../images/bucks-1.jpg)
 
 When we experience certain kinds of hardship in life, it’s natural to turn to our council for help, but people often end up in a web of phone calls and assessments, unclear about the support options available.
 
