@@ -19,6 +19,8 @@ Taking inspiration from student finance and the utility supplier start-up [Bulb]
 
 What would currently require many paper forms and waiting times of weeks or months is re-imagined as two streamlined online transactions.
 
+I started with very low-fidelity "concept sheets" and improved the fidelity as we learned.
+
 ![Later, more developed prototypes](../images/essex-3.jpg)
 
 Outdated patriarchal terms like "assessments" are rebranded as "conversations". 
