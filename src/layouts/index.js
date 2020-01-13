@@ -74,7 +74,7 @@ const Layout = ({
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Media coordinator</h3>
-                    <p className="list-item__caption">University of Westminster Students' Union</p>
+                    <p className="list-item__caption">University of Westminster</p>
                     <p className="list-item__description">I trained and managed a cohort of 50+ student journalists, creating and implementing a strategic vision for one of the UK’s most awarded student media collectives.</p>
                 </li>
             </ul>
