@@ -55,7 +55,7 @@ const Layout = ({
                 <li className="list-item">
                     <h3 className="list-item__title">Product designer and developer</h3>
                     <p className="list-item__caption">FutureGov</p>
-                    <p className="list-item__description">I design and build the tools to enable 21st century public services, with a healthy dose of prototyping, co-design and product strategy. At the moment, I’m focusing on diversifying my team’s web development skills.</p>
+                    <p className="list-item__description">I design and build the tools to enable 21st century public services, with a healthy dose of prototyping, co-design and product strategy. At the moment, I’m building a new community of practice for technology and web development.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Product manager</h3>
@@ -70,7 +70,7 @@ const Layout = ({
                 <li className="list-item">
                     <h3 className="list-item__title">Product owner</h3>
                     <p className="list-item__caption">HMRC</p>
-                    <p className="list-item__description">I prepared HMRC’s digital infrastructure for its largest annual traffic spike—the self-assessment deadline. I also conducted user research and trained a cohort of apprentices to become cloud engineers.</p>
+                    <p className="list-item__description">I prepared HMRC’s digital infrastructure for its largest annual traffic spike—the self-assessment tax deadline. I also conducted user research and trained a cohort of apprentices to become cloud engineers.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Media coordinator</h3>
