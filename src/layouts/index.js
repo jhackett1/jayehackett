@@ -35,7 +35,12 @@ const Layout = ({
                 <StaticQuery 
                     query={graphql`
                         query HomeQuery {
-                            allMarkdownRemark {
+                            allMarkdownRemark(
+                                sort: {
+                                  fields: [frontmatter___title]
+                                  order: ASC
+                                }
+                              ) {
                                 edges {
                                     node {
                                         id
