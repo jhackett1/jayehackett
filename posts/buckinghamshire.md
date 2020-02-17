@@ -26,6 +26,8 @@ My team and I conducted user research with the public: both structured, prepared
 
 I also facilitated co-design workshops with council staff to build the ideal user experience for admins.
 
+The product uses a React front-end powered by a Node API and MongoDB database.
+
 I'm particularly proud of the open data principles we baked into the product. The user-facing parts are driven by an API that complies with an [emerging data standard](https://openreferral.org/) for community assets.
 
 There's huge potential impact in opening up the dataset for third-party developers, and we've now laid all the necessary groundwork.
