@@ -113,7 +113,7 @@ const Layout = ({
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Web development</h3>
-                    <p className="list-item__description">At the moment I work mainly with React and Rails, but I’m open to learning any and all new tech.</p>
+                    <p className="list-item__description">At the moment I work mainly with React, Node and Rails, but I’m open to learning any and all new tech.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Agile delivery</h3>
