@@ -28,6 +28,8 @@ In a single, immediate online transaction, a user can now:
 
 Before the changes, that process would have involved lots of phone calls, emails and in-person visits over several weeks.
 
+The products use server-rendered React, driven by an AWS DynamoDB database.
+
 The project is now in a national beta phase.
 
 **[See the new digital recruitment journey](https://volunteer.samaritans.org/volunteer).**
