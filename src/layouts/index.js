@@ -105,19 +105,19 @@ const Layout = ({
             <ul className="grid__list grid__list--two-col">
                 <li className="list-item">
                     <h3 className="list-item__title">Mentoring and coaching</h3>
-                    <p className="list-item__description">I’ve taught four CodeFirst:Girls courses and am a regular Codebar coach. I care deeply about bringing under-represented people into technology and forming successful communities of practice wherever I work.</p>
+                    <p className="list-item__description">I’ve taught four CodeFirst:Girls courses and I’m a regular Codebar coach. I care deeply about bringing under-represented people into tech.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Strategic design</h3>
-                    <p className="list-item__description">Public sector digital services need to be accessible to everyone. I’m comfortable identifying user needs through research and carrying these forward through a project, and considering digital tools as part of an end-to-end service.</p>
+                    <p className="list-item__description">I treat digital products as part of an end-to-end service composed of teams, processes, policies and tools.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Web development</h3>
-                    <p className="list-item__description">I have good knowledge of accessibility and progressive enhancement. Most of the things I build are with React and/or Rails, but I’m always learning new things</p>
+                    <p className="list-item__description">At the moment I work mainly with React and Rails, but I’m open to learning any and all new tech.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Agile delivery</h3>
-                    <p className="list-item__description">I’ve trained with and worked alongside many experience agile practitioners, and have led large and small agile teams.</p>
+                    <p className="list-item__description">I’ve lead small and large agile teams, and I’m an experienced scrum facilitator.</p>
                 </li>
             </ul>
         </section>
