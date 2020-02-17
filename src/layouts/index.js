@@ -68,7 +68,7 @@ const Layout = ({
             <h2 className="grid__title">Selected <br/>experience</h2>
             <ul className="grid__list grid__list--two-col">
                 <li className="list-item">
-                    <h3 className="list-item__title">Product designer and developer</h3>
+                    <h3 className="list-item__title">Product designer & developer</h3>
                     <p className="list-item__caption">FutureGov</p>
                     <p className="list-item__description">I use participatory design to prototype and build the digital tools to enable 21st century public services. At the moment, I’m building a new community of practice for technology and software engineering.</p>
                 </li>
@@ -93,7 +93,7 @@ const Layout = ({
                     <p className="list-item__description">I mentored and trained dozens of student journalists for one of the UK’s most awarded student media collectives.</p>
                 </li>
                 <li className="list-item">
-                    <h3 className="list-item__title">Freelance UX designer and developer</h3>
+                    <h3 className="list-item__title">Freelance UX designer & developer</h3>
                     <p className="list-item__caption">Since 2015</p>
                     <p className="list-item__description">I use an agile, lean approach to build products ranging from new websites for large city investment firms to MVPs for small health start-ups.</p>
                 </li>
