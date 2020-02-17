@@ -94,6 +94,7 @@ const Layout = ({
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Freelance UX designer and developer</h3>
+                    <p className="list-item__caption">Since 2015</p>
                     <p className="list-item__description">I use an agile, lean approach to build products ranging from new websites for large city investment firms to MVPs for small health start-ups.</p>
                 </li>
             </ul>
