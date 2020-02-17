@@ -3,6 +3,7 @@ title: Asking for social care help
 slug: "/essex"
 client: Essex County Council
 year: 2019
+tags: Service design, prototyping
 ---
 
 Asking for adult social care help from the council can be a profoundly harrowing experience, often coming right after a crisis point in someone's life.

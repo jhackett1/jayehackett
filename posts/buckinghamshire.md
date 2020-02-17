@@ -3,6 +3,7 @@ title: Find support near me
 slug: "/buckinghamshire"
 client: Buckinghamshire Council
 year: 2020
+tags: Product design, software
 ---
 
 I designed and built a tool to untangle the complicated mix of support available to adults in need in Buckinghamshire.
@@ -32,3 +33,5 @@ There's huge potential impact in opening up the dataset for third-party develope
 The service will soon enter an open beta.
 
 **[Read more about this work](https://blog.wearefuturegov.com/helping-citizens-find-support-649d232da914)**
+
+Or, [see some of the code](https://github.com/wearefuturegov/bucks-service-directory).

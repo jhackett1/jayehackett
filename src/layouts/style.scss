@@ -118,7 +118,7 @@ a{
     margin-bottom: 60px;
     @media screen and (min-width: 800px){
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 3fr;
         grid-column-gap: 40px;
         margin-bottom: 100px;
     }
@@ -182,15 +182,19 @@ a{
 }
 .list-item__caption{
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 100;
     font-style: italic;
     display: flex;
-    @media screen and (min-width: 800px){
-        font-size: 1.3rem;
-    }
     span{
-        margin-left: auto;
+        display: none;
+    }
+    @media screen and (min-width: 800px){
+        font-size: 1.2rem;
+        span{
+            margin-left: auto;
+            display: inline-block;
+        }
     }
 }
 .list-item__description{

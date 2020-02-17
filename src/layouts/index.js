@@ -3,6 +3,7 @@ import "./style.scss"
 import hero from "../images/hero.jpg"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
+import { StaticQuery, graphql } from "gatsby"
 
 const Layout = ({
     children
@@ -29,24 +30,38 @@ const Layout = ({
 
         <section className="grid container">
             <h2 className="grid__title">Recent work</h2>
-            <ul className="grid__list">
-                <li className="list-item">
-                    <h3 className="list-item__title"><Link to="/buckinghamshire">Find support near me</Link></h3>
-                    <p className="list-item__caption">Buckinghamshire Council <span>2020</span></p>
-                </li>
-                <li className="list-item">
-                    <h3 className="list-item__title"><Link to="/kent">Get an EHC plan</Link></h3>
-                    <p className="list-item__caption">Kent County Council <span>2019</span></p>
-                </li>
-                <li className="list-item">
-                    <h3 className="list-item__title"><Link to="/essex">Ask for social care help</Link></h3>
-                    <p className="list-item__caption">Essex County Council <span>2019</span></p>
-                </li>
-                <li className="list-item">
-                    <h3 className="list-item__title"><Link to="/samaritans">Become a volunteer</Link></h3>
-                    <p className="list-item__caption">Samaritans <span>2018</span></p>
-                </li>
-            </ul>
+ 
+
+                <StaticQuery 
+                    query={graphql`
+                        query HomeQuery {
+                            allMarkdownRemark {
+                                edges {
+                                    node {
+                                        id
+                                        frontmatter {
+                                            title
+                                            slug
+                                            year
+                                            tags
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    `}
+                    render={data => (
+                        <ul className="grid__list">
+                            {console.log(data)}
+                            {data.allMarkdownRemark.edges.map(edge =>
+                                <li className="list-item">
+                                    <h3 className="list-item__title"><Link to={edge.node.frontmatter.slug}>{edge.node.frontmatter.title}</Link></h3>
+                                    <p className="list-item__caption">{edge.node.frontmatter.tags} <span>{edge.node.frontmatter.year}</span></p>
+                                </li>
+                            )}
+                        </ul>
+                    )}
+                />
         </section>
 
         <section className="grid container">
@@ -55,27 +70,31 @@ const Layout = ({
                 <li className="list-item">
                     <h3 className="list-item__title">Product designer and developer</h3>
                     <p className="list-item__caption">FutureGov</p>
-                    <p className="list-item__description">I design and build the tools to enable 21st century public services, with a healthy dose of prototyping, co-design and product strategy. At the moment, I’m building a new community of practice for technology and web development.</p>
+                    <p className="list-item__description">I use participatory design to prototype and build the digital tools to enable 21st century public services. At the moment, I’m building a new community of practice for technology and software engineering.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Product manager</h3>
                     <p className="list-item__caption">Samaritans</p>
-                    <p className="list-item__description">I introduced a new end-to-end experience for new volunteers joining Samaritans: pioneering new digital tools, piloting training methods and ways of working for the charity, plus managing agency relationships.</p>
+                    <p className="list-item__description">I designed and implemented a new end-to-end experience for new volunteers, including facilitating stakeholder workshops, conducting user research and managing agency relationships.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">User researcher</h3>
                     <p className="list-item__caption">Department for Work and Pensions</p>
-                    <p className="list-item__description">I steered a digital service team through a discovery phase, managing stakeholders, facilitating workshops, guarding the team’s time and conducting pop-up user research.</p>
+                    <p className="list-item__description">I built working HTML/CSS prototypes, wrote discussion guides, conducted user interviews and synthesised findings for a new digital service going through a discovery phase.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Product owner</h3>
                     <p className="list-item__caption">HMRC</p>
-                    <p className="list-item__description">I prepared HMRC’s digital infrastructure for its largest annual traffic spike—the self-assessment tax deadline. I also conducted user research and trained a cohort of apprentices to become cloud engineers.</p>
+                    <p className="list-item__description">I prepared HMRC’s digital infrastructure for its largest annual traffic spike—the self-assessment tax deadline. I also conducted trained a cohort of apprentices to become developers and cloud engineers.</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Media coordinator</h3>
                     <p className="list-item__caption">University of Westminster</p>
-                    <p className="list-item__description">I trained and managed a cohort of 50+ student journalists, creating and implementing a strategic vision for one of the UK’s most awarded student media collectives.</p>
+                    <p className="list-item__description">I mentored and trained dozens of student journalists for one of the UK’s most awarded student media collectives.</p>
+                </li>
+                <li className="list-item">
+                    <h3 className="list-item__title">Freelance UX designer and developer</h3>
+                    <p className="list-item__description">I use an agile, lean approach to build products ranging from new websites for large city investment firms to MVPs for small health start-ups.</p>
                 </li>
             </ul>
         </section>
@@ -84,20 +103,20 @@ const Layout = ({
             <h2 className="grid__title">Skills</h2>
             <ul className="grid__list grid__list--two-col">
                 <li className="list-item">
+                    <h3 className="list-item__title">Mentoring and coaching</h3>
+                    <p className="list-item__description">I’ve taught four CodeFirst:Girls courses and am a regular Codebar coach. I care deeply about bringing under-represented people into technology and forming successful communities of practice wherever I work.</p>
+                </li>
+                <li className="list-item">
                     <h3 className="list-item__title">Strategic design</h3>
                     <p className="list-item__description">Public sector digital services need to be accessible to everyone. I’m comfortable identifying user needs through research and carrying these forward through a project, and considering digital tools as part of an end-to-end service.</p>
                 </li>
                 <li className="list-item">
-                    <h3 className="list-item__title">Training and coaching</h3>
-                    <p className="list-item__description">I’m a long-time volunteer with <strong>CodeFirst:Girls</strong> and <strong>Codebar</strong>. Most of my jobs have included a mentoring aspect. I’m comfortable presenting in front of a crowd, and facilitating co-design workshops with users are a vital part of my design process.</p>
+                    <h3 className="list-item__title">Web development</h3>
+                    <p className="list-item__description">I have good knowledge of accessibility and progressive enhancement. Most of the things I build are with React and/or Rails, but I’m always learning new things</p>
                 </li>
                 <li className="list-item">
                     <h3 className="list-item__title">Agile delivery</h3>
                     <p className="list-item__description">I’ve trained with and worked alongside many experience agile practitioners, and have led large and small agile teams.</p>
-                </li>
-                <li className="list-item">
-                    <h3 className="list-item__title">Web development</h3>
-                    <p className="list-item__description">I'm a full-stack developer comfortable building modern web apps. I work mainly with React and Rails but have experience in a variety of technologies.</p>
                 </li>
             </ul>
         </section>

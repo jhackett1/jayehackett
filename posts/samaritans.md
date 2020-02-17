@@ -3,6 +3,7 @@ title: Volunteer recruitment
 slug: "/samaritans"
 client: Samaritans
 year: 2018
+tags: Product design, software
 ---
 
 In 2018 I introduced a streamlined, digital volunteer recruitment journey to the suicide prevention helpline charity Samaritans.
@@ -30,5 +31,7 @@ Before the changes, that process would have involved lots of phone calls, emails
 The project is now in a national beta phase.
 
 **[See the new digital recruitment journey](https://volunteer.samaritans.org/volunteer).**
+
+**[See some of the code](https://github.com/samaritans-digital/recruitment-dashboard)**.
 
 Or, [read more about this work](https://samaritans-digital.github.io/volunteer-recruitment-improvements.html).

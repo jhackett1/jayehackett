@@ -3,6 +3,7 @@ title: Get SEN support
 slug: "/kent"
 client: Kent County Council
 year: 2019
+tags: Service design, prototyping
 ---
 
 Parents of children with special educational needs tend to be told that the first and best thing to do is to ask the council for an "education, health and care" (EHC) plan.
